@@ -4,8 +4,3 @@ def badge_maker(array)
 end
 end
 
-def batch_badge_creator
-  
-end
-
-def 
