@@ -9,3 +9,7 @@ def batch_badge_creator(attendees)
   attendees.each {|i| arr << badge_maker(i)}
   arr
 end
+
+def conference_badges
+  
+end
