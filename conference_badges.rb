@@ -15,4 +15,3 @@ def conference_badges
   attendees.each {|i| arr << puts "Hello, #{name}!"}
   arr
 end
-end
