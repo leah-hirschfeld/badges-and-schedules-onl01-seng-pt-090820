@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(attendees)
   arr = []
-  attendees = 
-  array.each {|i| arr << badge_maker}
+  attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  attendees.each {|i| arr << badge_maker(attendees)}
   arr
 end
