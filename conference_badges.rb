@@ -11,5 +11,8 @@ def batch_badge_creator(attendees)
 end
 
 def conference_badges
-  
+  arr = []
+  attendees.each {|i| arr << puts "Hello, #{name}!"}
+  arr
+end
 end
