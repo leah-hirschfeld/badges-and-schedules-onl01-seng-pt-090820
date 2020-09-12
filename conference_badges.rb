@@ -9,3 +9,9 @@ def batch_badge_creator(attendees)
   attendees.each {|i| arr << badge_maker(i)}
   arr
 end
+
+def assign_rooms(attendees)
+  arr = []
+  attendees.each {|i| arr << "Hello, #{name}!"}
+  arr
+end
