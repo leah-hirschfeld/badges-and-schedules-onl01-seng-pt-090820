@@ -16,7 +16,7 @@ def assign_rooms(attendees)
   arr
 end
 
-def conference_badges
+def printer
   puts batch_badge_creator
   puts assign_rooms
 end
