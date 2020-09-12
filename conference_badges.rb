@@ -12,6 +12,6 @@ end
 
 def assign_rooms(attendees)
   arr = []
-  attendees.each {|name| arr << "Hello, #{name}! You'll be assigned to room #{attendees.index}!"}
+  attendees.each {|name| arr << "Hello, #{name}! You'll be assigned to room #{attendees.index - 1}!"}
   arr
 end
